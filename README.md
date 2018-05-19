@@ -1,7 +1,10 @@
 # Getting-and-Cleaning-Data-Course-Project
 
 ### Variable/Column names of the submitted data set
-The variable names are taken as the names of the features, which are are already descriptive. More info can be find directly in the features_info.txt in the zip file from the data source, available also with this repo.
+The variable names are gernarally taken as the names of the features, which are are already descriptive. Adaptations include:
+- removed special characters such as ",", "-" and "()"
+- changed mean to Mean and std to Std.
+More info can be find directly in the features_info.txt in the zip file from the data source, available also with this repo.
 
 ### run_analysis.R
 Following steps are done in the R script
